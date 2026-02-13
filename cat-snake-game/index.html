@@ -1,0 +1,23 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat Snake: Mouse Hunt</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Cat Snake: Mouse Hunt</h1>
+    <p class="hint">Use Arrow Keys or WASD. Eat mice. Avoid walls and your tail.</p>
+    <section class="hud">
+      <span>Score: <strong id="score">0</strong></span>
+      <span>Best: <strong id="best">0</strong></span>
+      <span>Time: <strong id="timer">60</strong>s</span>
+    </section>
+    <canvas id="game" width="640" height="640" aria-label="Cat snake game"></canvas>
+    <button id="restart" type="button">Restart</button>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
