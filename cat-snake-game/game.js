@@ -1,4 +1,3 @@
-## ignore me im fat
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 const scoreEl = document.getElementById("score");
